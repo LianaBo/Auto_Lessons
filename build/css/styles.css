@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  font-family: "Merriweather Light";
+  color: #3c3c3c;
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.header {
+  background-image: url("../img/header.png");
+  background-size: cover;
+  background-position: top center;
+  overflow: hidden;
+}
+.menu__list {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 43px;
+}
+.menu__list li {
+  list-style: none;
+  padding: 10px 15px 10px;
+  font-family: "Merriweather Italic";
+  font-size: 1.8rem;
+  margin: 0 10px;
+  font-weight: 600;
+  border: 1.4px solid transparent;
+  cursor: pointer;
+}
+.menu__list li:hover {
+  border: 1.4px solid #6e6e6e;
+  transition: 1s;
+}
+.wrapper {
+  max-width: 1520px;
+  margin: 0 auto;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.header-content {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 40px;
+}
+.header-title {
+  text-align: center;
+}
+.header-title h1 {
+  margin-top: 240px;
+  font-size: 4rem;
+  line-break: normal;
+  max-width: 500px;
+  font-weight: 100;
+}
+.header-title img {
+  margin-top: 40px;
+  margin-bottom: 240px;
+}
+.services {
+  background-image: url("../img/Bg.png");
+  background-size: contain;
+  max-height: 100%;
+}
+.services .services__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.services .services__list {
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+.services .services__item {
+  text-align: center;
+  width: calc(25% - 20px);
+}
+.services h3 {
+  font-family: "Merriweather Black";
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.services p {
+  font-size: 1.6rem;
+}
