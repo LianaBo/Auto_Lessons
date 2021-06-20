@@ -6,12 +6,10 @@ import os
 file = "GoodFile.txt"
 path = "C:\\Users\\User\\Desktop\\Python\\" + file
 
-if os.path.exists(file):
-    os.remove(file)
-
 pg.hotkey("winleft")
 time.sleep(2)
-pg.typewrite("notepad\n", 0.9)
+
+pg.typewrite("notepad\n", 0.1)
 time.sleep(1)
 
 expect = "Good job"
